@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/form-download/static/css/main.6ef01c7c.chunk.css",
+    "main.js": "/form-download/static/js/main.3ceb7ecb.chunk.js",
+    "main.js.map": "/form-download/static/js/main.3ceb7ecb.chunk.js.map",
+    "runtime-main.js": "/form-download/static/js/runtime-main.e37a861f.js",
+    "runtime-main.js.map": "/form-download/static/js/runtime-main.e37a861f.js.map",
+    "static/js/2.0ba8967d.chunk.js": "/form-download/static/js/2.0ba8967d.chunk.js",
+    "static/js/2.0ba8967d.chunk.js.map": "/form-download/static/js/2.0ba8967d.chunk.js.map",
+    "static/js/3.6135bd0f.chunk.js": "/form-download/static/js/3.6135bd0f.chunk.js",
+    "static/js/3.6135bd0f.chunk.js.map": "/form-download/static/js/3.6135bd0f.chunk.js.map",
+    "index.html": "/form-download/index.html",
+    "static/css/main.6ef01c7c.chunk.css.map": "/form-download/static/css/main.6ef01c7c.chunk.css.map",
+    "static/js/2.0ba8967d.chunk.js.LICENSE.txt": "/form-download/static/js/2.0ba8967d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/form-download/static/media/mobile-rect2.2a08860c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e37a861f.js",
+    "static/js/2.0ba8967d.chunk.js",
+    "static/css/main.6ef01c7c.chunk.css",
+    "static/js/main.3ceb7ecb.chunk.js"
+  ]
+}
