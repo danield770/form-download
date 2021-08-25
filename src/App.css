@@ -9,6 +9,12 @@ body {
   font-family: 'Mulish', sans-serif;
   color: var(--text-color);
   margin: 0;
+  background: url(assets/svg/desk-rect1.svg) 8% 40% / 7rem 7rem no-repeat,
+    url(assets/svg/desk-rect2.svg) 60% 15% / 4rem 4rem no-repeat,
+    url(assets/svg/desk-rect3.svg) 55% 61% / 2.5rem 2.5rem no-repeat,
+    url(assets/svg/desk-x1.svg) 62% 90% / 2rem 2rem no-repeat,
+    url(assets/svg/desk-x2.svg) 94% 22% / 4rem 4rem no-repeat,
+    url(assets/svg/desk-circle.svg) 88% 47% / 4.5rem 4.5rem no-repeat;
 }
 .app {
   display: grid;
@@ -16,9 +22,11 @@ body {
   height: 100vh;
 }
 .content {
-  width: 67%;
+  width: min(52ch, 100vw - 4rem);
   align-self: center;
   justify-self: flex-end;
+  background: white;
+  padding: 0.5rem;
 }
 .content h1 {
   font-size: 32px;
@@ -43,10 +51,12 @@ body {
   padding: 4rem 3rem;
   font-size: 1rem;
   box-shadow: 0px 3px 16px #00000029;
+  background: white;
 }
 input::placeholder {
   color: var(--placeholder-color);
 }
+
 .form h3 {
   font-size: 20px;
   margin: 8px 0;
@@ -61,6 +71,10 @@ input::placeholder {
   padding: 0 0 4px 0;
   font-size: 14px;
 }
+.form input:not(.cb):focus-visible {
+  outline: none;
+  border-bottom: 2px solid var(--text-color);
+}
 .form button {
   color: white;
   background-color: var(--btn-primary-color);
@@ -71,6 +85,7 @@ input::placeholder {
   margin: 25px auto 25px;
   font-size: 15px;
   font-family: inherit;
+  cursor: pointer;
 }
 .form label {
   padding-left: 5px;
@@ -85,4 +100,27 @@ input::placeholder {
   color: var(--error-color);
   text-align: left;
   font-size: 12px;
+}
+
+@media (max-width: 1100px) {
+  body {
+    margin: 3rem 0;
+    line-height: 1.5;
+    background: url(assets/svg/mobile-rect1.svg) 3% 74% / 3rem 3rem no-repeat,
+      url(assets/svg/mobile-rect2.svg) 99% 62% / 6rem 6rem no-repeat;
+  }
+  .app {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .content {
+    justify-self: center;
+  }
+  .form {
+    width: 68vw;
+    height: auto;
+    min-height: 55vh;
+    margin-top: 3rem;
+    padding: 3rem 1.5rem;
+  }
 }

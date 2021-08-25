@@ -1,3 +1,31 @@
+# Requirements:
+
+The page includes 2 main parts: 1. Content information
+a. Title
+b. Subtitle
+c. Content explanation 2. Lead form
+a. Full name
+b. Company name
+c. Phone number
+d. Work email
+The page includes 4 main requirements, please find a description of those sections below In the following priority order:
+
+1. Page Design
+   a. All the relevant information about the design you can find here.
+2. Validations
+   a. Non-empty fields
+   b. Email validation
+   i. At the design, you can see the error message that appears only if the
+   input is not an email. c. Privacy Policy check
+   i. If the checkbox of the privacy policy is not checked you need to mark the checkbox lines in red (base on the previous error message color)
+3. Client-Server Network
+   a. Send a request to the server according to the API. (see https://drive.google.com/file/d/1yoWhTCINcBRfmV5irvuAcdfj7BrKd0us/view)
+   b. Get a URL to a file and download it to the computer.
+   i. If there is a 404 error - redirect the page to www.joonko.co
+4. Responsive & Compatibility
+   a. On the second page of the design, you can find the mobile design for the responsibility.
+   b. The page needs to be compatible with Chrome and Safari.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
