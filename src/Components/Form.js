@@ -19,7 +19,8 @@ function Form() {
   const mailRef = React.useRef(null);
   const privacyRef = React.useRef(null);
 
-  const BASEURL = 'https://u5d6gnw6aj.execute-api.us-east-1.amazonaws.com/api/';
+  const BASEURL =
+    'https://desolate-ridge-21792.herokuapp.com/https://u5d6gnw6aj.execute-api.us-east-1.amazonaws.com/api/';
 
   useEffect(() => {
     validation.name &&
